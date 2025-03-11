@@ -4,6 +4,6 @@ go 1.23.0
 
 require (
 	github.com/antihax/optional v1.0.0
-	github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-go v1.0.4
+	github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-go v1.0.5
 	golang.org/x/oauth2 v0.23.0
 )
