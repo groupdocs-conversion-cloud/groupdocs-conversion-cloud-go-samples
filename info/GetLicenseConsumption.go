@@ -15,6 +15,7 @@ func GetLicenseConsumption() {
 		return
 	}
 
-	fmt.Printf("Credits: %v\n", response.Credit)
-	fmt.Printf("Quantity: %v\n", response.Quantity)
+	fmt.Printf("Credits (for self-hosted version): %v\n", response.Credit)
+	fmt.Printf("Quantity (for self-hosted version): %v\n", response.Quantity)
+	fmt.Printf("BilledApiCalls (for cloud version): %v\n", response.BilledApiCalls)
 }
