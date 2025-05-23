@@ -14,8 +14,8 @@ func ConvertPresentationByHidingComments() {
 		FilePath:   "Presentation/with_notes.pptx",
 		OutputPath: "converted",
 		LoadOptions: &models.PresentationLoadOptions{
-			Format:       "pptx",
-			HideComments: true,
+			Format:           "pptx",
+			CommentsPosition: models.CommentsPositionEnumNone,
 		},
 	}
 

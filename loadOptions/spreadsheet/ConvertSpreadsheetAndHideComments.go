@@ -14,7 +14,7 @@ func ConvertSpreadsheetAndHideComments() {
 		FilePath:   "Spreadsheet/sample.xlsx",
 		OutputPath: "converted",
 		LoadOptions: &models.SpreadsheetLoadOptions{
-			HideComments:    true,
+			PrintComments:   models.PrintCommentsEnumPrintNoComments,
 			OnePagePerSheet: true,
 		},
 	}
