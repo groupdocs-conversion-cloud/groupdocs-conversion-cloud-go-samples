@@ -15,7 +15,7 @@ func ConvertEmailWithAttachments() {
 		OutputPath: "converted",
 		LoadOptions: &models.EmailLoadOptions{
 			Format:             "eml",
-			ConvertAttachments: true,
+			DisplayAttachments: true,
 		},
 	}
 

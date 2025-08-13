@@ -14,7 +14,7 @@ func ConvertWordProcessingByHidingComments() {
 		FilePath:   "WordProcessing/with_tracked_changes.docx",
 		OutputPath: "converted",
 		LoadOptions: &models.WordProcessingLoadOptions{
-			HideComments: true,
+			CommentDisplayMode: models.CommentDisplayModeEnumHidden,
 		},
 	}
 
